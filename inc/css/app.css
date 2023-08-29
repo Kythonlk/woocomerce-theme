@@ -1,0 +1,77 @@
+
+body {
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #1a1a23;
+}
+
+
+
+  .home-pro-card-img{
+    width: 100%;
+    height: 200px!important;
+    object-fit: contain;
+  }
+ 
+  .home-pro-card-sale-b{
+    z-index: 99;
+    position: absolute;
+    margin: 5px 0 -20px 5px;
+  }
+ 
+    .home-pro-card-sale-tag{
+        background-color: red;
+        color: #fff;
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: 4px;
+    }
+
+    .home-pro-card-body{
+        padding: 5px;
+    }
+
+    .home-pro-card-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #0062bd;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .home-pro-card-regular-price{
+        color: #dc3545;
+        text-decoration: line-through
+    }
+    .home-pro-card-sale-price{
+        color: #333e48;
+    }
+
+    .home-pro-card-normal-price{
+        color: #333e48;
+    }
+
+    .home-pro-card{
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+    }
+
+    .home-pro-card:hover {
+        box-shadow: 0 0 20px rgba(0,0,0,.2);
+    }
+    
+    .home-pro-card-catalog-ph{
+        padding: 5px!important;
+    }
+
+    .home-pro-card-price{
+        margin-bottom: 0;
+    }

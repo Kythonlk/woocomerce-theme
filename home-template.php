@@ -10,9 +10,9 @@ get_header();
 <section class="p-4">
     <div class="mx-3">
         <div class="slick-slider">
-            <div><img src="<?php echo get_template_directory_uri(); ?>/Big-sale-banner-1.webp" alt="Slide 1"></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/Be-cool-in-this-hot-season.webp" alt="Slide 2"></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/Home-banner-1430-%C3%97-400-px.webp" alt="Slide 3"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/img/slider1.webp" alt="Slide 1"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/img/slider2.webp" alt="Slide 2"></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/img/slider3.webp" alt="Slide 3"></div>
         </div>
     </div>
 </section>
@@ -78,12 +78,12 @@ get_header();
             <hr>
             <?php
 
-            $category_slugs = array('category-slug-1', 'category-slug-2');
+            // $category_slugs = array('category-slug-1', 'category-slug-2');
 
             $args = array(
                 'post_type' => 'product',
                 'posts_per_page' => 12,
-                'product_cat' => $category_slugs,
+                // 'product_cat' => $category_slugs,
             );
             $loop = new WP_Query($args);
 

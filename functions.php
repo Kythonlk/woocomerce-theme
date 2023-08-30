@@ -1,5 +1,8 @@
 <?php
 
+
+require get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+
 function enqueue_bootstrap() {
     // Enqueue Bootstrap CSS
     wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');

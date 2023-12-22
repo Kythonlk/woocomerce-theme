@@ -1,3 +1,3 @@
-Wordpress woocommerce theme making for dhabione
+Wordpress woocommerce theme making for ecommerce
 
 # woocomercewptheme
